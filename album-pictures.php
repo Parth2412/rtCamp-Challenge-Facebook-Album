@@ -201,7 +201,7 @@ if (isset($accessToken))
 <?php 
         
 } else {
-    $loginUrl = $helper->getLoginUrl('https://www.album-challenge.000webhostapp.com/display-album.php', $permissions);
+    $loginUrl = $helper->getLoginUrl('https://fbalbumchallenge.000webhostapp.com/display-album.php', $permissions);
 }
 ?>
 

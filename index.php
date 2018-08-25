@@ -5,7 +5,7 @@
         header('location:index.php');
         exit();
     }
-    $redirectURL="https://album-challenge.000webhostapp.com/fb-callback.php";
+    $redirectURL="https://fbalbumchallenge.000webhostapp.com/fb-callback.php";
     $permissions=['email'];
     $loginURL=$helper->getLoginUrl($redirectURL,$permissions);
 ?>
